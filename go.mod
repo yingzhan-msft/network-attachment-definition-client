@@ -1,12 +1,10 @@
-module github.com/k8snetworkplumbingwg/network-attachment-definition-client
+module github.com/yingzhan-msft/network-attachment-definition-client
 
 go 1.21
 
 require (
 	github.com/containernetworking/cni v1.0.1
-	github.com/emicklei/go-restful v2.16.0+incompatible // indirect
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
-	github.com/googleapis/gnostic v0.5.5 // indirect
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.29.0
 	golang.org/x/tools v0.12.0 // indirect
@@ -17,9 +15,9 @@ require (
 	k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00
 )
 
+require github.com/k8snetworkplumbingwg/network-attachment-definition-client v1.5.0
+
 require (
-	github.com/PuerkitoBio/purell v1.1.1 // indirect
-	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
 	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
@@ -51,7 +49,6 @@ require (
 	golang.org/x/term v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
-	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
